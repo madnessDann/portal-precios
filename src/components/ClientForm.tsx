@@ -91,7 +91,7 @@ export default function ClientForm({
         <button
           type="submit"
           disabled={loading}
-          className="btn-primary flex-1 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+          className="btn-primary flex-1 text-sm py-2 px-4 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
         >
           {loading ? (
             <span className="flex items-center justify-center gap-2">
